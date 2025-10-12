@@ -1,8 +1,29 @@
-numpy
-opencv-python
-matplotlib
-scikit-image
-pandas
-scikit-learn
-tqdm
-Pillow
+# TraceFinder - Forensic Scanner Identification System
+# Requirements File
+
+# Core Dependencies
+torch==2.2.0
+torchvision==0.17.0
+torchaudio==2.2.0
+
+# Computer Vision
+opencv-python==4.9.0.80
+Pillow==10.2.0
+
+# Data Science
+numpy==1.26.4
+pandas==2.2.0
+scikit-learn==1.4.0
+scipy==1.12.0
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.1
+plotly==5.18.0
+
+# Web Framework
+streamlit==1.31.0
+
+# Utilities
+tqdm==4.66.1
+pyyaml==6.0.1

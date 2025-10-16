@@ -1,10 +1,11 @@
--f https://download.pytorch.org/whl/torch_stable.html
+streamlit==1.50.0
+pandas==2.3.2
+numpy==2.2.6
+scikit-learn==1.7.1
+matplotlib==3.10.5
+opencv-python==4.12.0.88
+
+# Linux-compatible PyTorch
 torch==2.3.1
 torchvision==0.18.1
 torchaudio==2.3.1
-streamlit==1.50.0
-pandas
-numpy
-scikit-learn
-matplotlib
-opencv-python

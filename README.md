@@ -16,7 +16,6 @@
 - [Methodology](#methodology)
 - [Technologies Used](#technologies-used)
 - [License](#license)
-- [Contact](#contact)
 
 ---
 
@@ -528,26 +527,6 @@ Recognition of the computational resources and academic support provided during 
 **Research Community**
 
 Appreciation for prior research in digital forensics and scanner identification that informed this work.
-
----
-
-## 📞 Contact
-
-**Project Repository**
-
-Access the complete source code, documentation, and issues tracker on GitHub.
-
-**Technical Support**
-
-For bug reports, feature requests, or technical questions, please create an issue on the GitHub repository.
-
-**Collaboration Inquiries**
-
-For research collaboration, commercial licensing, or partnership opportunities, please reach out via email.
-
-**Professional Network**
-
-Connect on LinkedIn for professional networking and project updates.
 
 ---
 

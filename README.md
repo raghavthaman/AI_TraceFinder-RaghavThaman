@@ -197,42 +197,33 @@ Run predictions from the command line with options for input file, output format
 
 ## 📁 Project Structure
 
-The project is organized into the following main directories:
+### 🗂️ Directory Details
 
-**Root Directory**
-- Main application file (app.py)
-- Configuration files (requirements.txt, README.md, LICENSE)
-- Documentation files
+#### `dataset_links/`
+- Contains links to download the **SUPATLANTIQUE** dataset  
+- Includes `labels.csv` with image paths and scanner model information  
+- Dataset metadata and documentation  
 
-**Notebooks Folder**
-- Milestone 1: Data collection and preprocessing
-- Milestone 2: Feature engineering and baseline models
-- Milestone 3: Deep learning model development
-- Week 6: Model evaluation and explainability
+#### `milestone_1/`
+- Jupyter notebook for **data collection and preprocessing**  
+- Image loading, resizing, and normalization  
+- Dataset splitting and validation  
 
-**Source Code Folder**
-- Model architecture definitions
-- Dataset loading and preprocessing utilities
-- Training and evaluation scripts
-- Helper functions and utilities
+#### `milestone_2/`
+- **Feature engineering** notebook (PRNU, LBP, FFT extraction)  
+- Baseline model training (**Logistic Regression**, **SVM**, **Random Forest**)  
+- `week3_features.csv` contains extracted **LBP texture features**  
 
-**Models Folder**
-- Trained model checkpoints
-- Best performing models
-- Ensemble model weights
-- Training history and logs
+#### `milestone_3/`
+- **Deep learning model development**  
+- **ResNet18** ensemble training  
+- Model evaluation and **Grad-CAM** explainability  
+- Trained model checkpoints (`.pth` files)  
 
-**Data Folder**
-- Raw scanned images (not included in repository)
-- Processed and normalized images
-- Train/validation/test splits
-
-**Results Folder**
-- Confusion matrices
-- Performance metrics
-- Grad-CAM visualizations
-- Classification reports
-- Prediction logs
+#### `milestone_4/`
+- `app.py`: Interactive **Streamlit web application**  
+- `requirements.txt`: Dependencies for deployment  
+- Prediction logging and export functionality
 
 ---
 

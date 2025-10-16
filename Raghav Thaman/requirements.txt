@@ -1,3 +1,13 @@
+# numpy
+# opencv-python
+# matplotlib
+# scikit-image
+# pandas
+# scikit-learn
+# tqdm
+# Pillow
+# torch==2.1.0
+
 streamlit==1.50.0
 pandas
 numpy
@@ -5,8 +15,9 @@ scikit-learn
 matplotlib
 opencv-python
 
-# CPU-only PyTorch
-torch==2.1.0+cpu
-torchvision==0.16.0+cpu
-torchaudio==2.1.0+cpu
+# PyTorch CPU versions compatible with Python 3.13
+torch==2.3.1+cpu
+torchvision==0.18.1+cpu
+torchaudio==2.3.1+cpu
 -f https://download.pytorch.org/whl/torch_stable.html
+

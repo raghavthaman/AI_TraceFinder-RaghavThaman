@@ -1,9 +1,9 @@
 streamlit
-pandas
-numpy
-scikit-learn
-matplotlib
-opencv-python-headless
 torch
 torchvision
-torchaudio
+opencv-python-headless
+numpy
+pandas
+Pillow
+plotly
+scikit-learn

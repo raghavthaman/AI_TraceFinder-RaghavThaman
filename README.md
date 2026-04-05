@@ -598,6 +598,6 @@ Appreciation for prior research in digital forensics and scanner identification 
 
 **TraceFinder - Making Digital Forensics Accessible**
 
-**Version 1.0 | 2025**
+**Version 1.0 | 2026**
 
 </div>

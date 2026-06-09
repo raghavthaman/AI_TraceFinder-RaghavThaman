@@ -102,7 +102,10 @@ def load_models():
         return model
     
     # Load models
-    base_path = r"C:\msys64\home\Raghav Thaman\internship\milestone_3"
+    # Resolve path to models folder relative to this file
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    repo_root = os.path.dirname(os.path.dirname(current_dir))
+    base_path = os.path.join(repo_root, "models")
     
     models_list = []
     model_files = [

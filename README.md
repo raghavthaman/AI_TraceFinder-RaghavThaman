@@ -3,6 +3,7 @@
 ### 🚀 Try AI TraceFinder
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Open%20App-success?style=for-the-badge)](https://aitracefinder-raghavthaman.streamlit.app/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://aitracefinder-raghavthaman.streamlit.app/)
 
 🔗 **Live App:** https://aitracefinder-raghavthaman.streamlit.app/
 

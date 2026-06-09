@@ -2,6 +2,8 @@
 
 ### 🚀 Try AI TraceFinder
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Open%20App-success?style=for-the-badge)](https://aitracefinder-raghavthaman.streamlit.app/)
+
 🔗 **Live App:** https://aitracefinder-raghavthaman.streamlit.app/
 
 > **Forensic scanner source identification using deep learning and PRNU (Photo Response Non-Uniformity) pattern analysis.**

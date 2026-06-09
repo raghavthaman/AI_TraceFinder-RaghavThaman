@@ -2,8 +2,6 @@
 
 ### 🚀 Try AI TraceFinder
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://aitracefinder-raghavthaman.streamlit.app/)
-
 🔗 **Live App:** https://aitracefinder-raghavthaman.streamlit.app/
 
 > **Forensic scanner source identification using deep learning and PRNU (Photo Response Non-Uniformity) pattern analysis.**

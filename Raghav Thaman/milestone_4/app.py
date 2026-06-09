@@ -101,11 +101,17 @@ def load_models():
         )
         return model
     
-    # Load models
-    # Resolve path to models folder relative to this file
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-    repo_root = os.path.dirname(os.path.dirname(current_dir))
-    base_path = os.path.join(repo_root, "models")
+    # Resolve path to models folder
+    def get_base_path():
+        if os.path.exists("models"):
+            return os.path.abspath("models")
+        curr = os.path.dirname(os.path.abspath(__file__))
+        for _ in range(4):
+            if os.path.exists(os.path.join(curr, "models")):
+                return os.path.join(curr, "models")
+            curr = os.path.dirname(curr)
+        return ""
+    base_path = get_base_path()
     
     models_list = []
     model_files = [
@@ -124,8 +130,10 @@ def load_models():
                 model.load_state_dict(checkpoint['model_state_dict'])
                 model.eval()
                 models_list.append(model)
-            except:
-                pass
+            except Exception as e:
+                st.error(f"Failed to load {model_file}: {str(e)}")
+        else:
+            st.error(f"File not found: {model_path}")
     
     if len(models_list) == 0:
         st.error("No models found! Please check model paths.")

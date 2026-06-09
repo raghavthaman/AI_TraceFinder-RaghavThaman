@@ -1,5 +1,7 @@
 # 🔍 TraceFinder - Forensic Scanner Identification System
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://aitracefinder-raghavthaman.streamlit.app/)
+
 > **Forensic scanner source identification using deep learning and PRNU (Photo Response Non-Uniformity) pattern analysis.**
 
 ---
@@ -168,9 +170,14 @@ Download the trained model files and place them in the milestone_3 folder.
 
 ### Option 1: Web Application
 
-**Launch the Streamlit App**
+**Live Demo**
 
-Run the app using Streamlit command. The application will open in your web browser at localhost:8501.
+You can try the live application directly in your browser:  
+👉 **[TraceFinder Streamlit App](https://aitracefinder-raghavthaman.streamlit.app/)**
+
+**Run Locally**
+
+Run the app using the Streamlit command. The application will open in your web browser at localhost:8501.
 
 **Using the Interface**
 
